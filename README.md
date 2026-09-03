@@ -74,32 +74,6 @@ python main.py --index /path/to/data --compress
 
 ---
 
-## 📂 Project Structure (Proposed)
-
-ahia-archive/
-
-├── src/
-
-│ ├── compression/ # Core compression algorithms (C++/Rust)
-
-│ ├── indexing/ # Search and index management (Go/Python)
-
-│ ├── dedup/ # Data deduplication logic
-
-│ └── api/ # Python bindings and CLI interface
-
-├── tests/ # Unit and integration tests
-
-├── config/ # Configuration templates
-
-├── scripts/ # Utility scripts for benchmarking
-
-├── main.py # Entry point
-
-└── README.md
-
----
-
 ## 📜 License
 
 AGPL-3.0 – see the [main repository](https://github.com/Artificial-Human-Intelligence-Archive/AHIA) for details.
